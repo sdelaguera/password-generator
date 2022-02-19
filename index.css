@@ -21,11 +21,13 @@ body {
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
 #top-level {
-    width: 550px;
-    height: 550px;
+    max-height: 550px;
+    max-width: 550px;
     background: #1F2937;
     font-family: Karla;
     font-style: normal;
